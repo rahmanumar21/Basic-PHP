@@ -1,0 +1,50 @@
+
+<!-- 
+Name : A. Rahman
+ -->
+
+<!DOCTYPE html>
+<html>
+<title>Basic 1</title>
+
+<!-- CSS Syntax -->
+<style>
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+</style>
+
+<body>
+
+<h1>Basic 1</h1>
+
+<?php
+echo "<h4> In this case, we want to show you 1 basic in PHP Programming Language <h5>";
+echo "<p> We use this code to show something with PHP Programming Language </p>";
+echo "
+<figure>
+    <blockquote>
+        <p><code> Echo </code></p>
+    </blockquote>
+</figure>";
+?> 
+
+</body>
+</html>
