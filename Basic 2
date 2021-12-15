@@ -1,0 +1,64 @@
+
+<!-- 
+Name : A. Rahman
+ -->
+
+<!DOCTYPE html>
+<html>
+<title>Basic 1</title>
+
+<!-- CSS Syntax -->
+<style>
+
+p {
+  font-weight: normal;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+</style>
+
+<body>
+
+<h1>Basic 1</h1>
+
+<?php
+echo "<h4> In this case, we want to show you 2 basic in PHP Programming Language <h5>";
+echo "<p> We use this code to show how variables are used in PHP Programming Language. </p>";
+echo "
+<figure>
+    <blockquote>
+        <p><code> $ (namevariable) </code></p>
+    </blockquote>
+</figure>";
+echo "<p> Example & Result : <p>";
+echo "<p> Calculate The Circumference of Circle </p>";
+echo "<p> phi = 3.14 </p>";
+echo "<p> r = 10 </p>";
+
+$phi = 3.14;
+$r = 23;
+$C = 0;
+
+echo "C = " . $C = 2 * $phi * $r;
+?> 
+
+</body>
+</html>
